@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/src/index.js",
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/babel-node",
+      "skipFiles": ["<node_internals>/**", "node_modules/**/*.js"],
+      "outputCapture": "std"
+    }
+  ]
+}
